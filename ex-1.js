@@ -1,7 +1,7 @@
-let isOver18;
-let hasCriminalBlacklist;
+let isOver18 = 18;
+let hasCriminalBlacklist = true;
 
-let isAllow;
+let isAllow = isOver18 >= 18 && hasCriminalBlacklist;
 
 // Start coding here
 
